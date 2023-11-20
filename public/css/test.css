@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Yellowtail";
+  src: url("../font/Yellowtail-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: "Alluring";
+  src: url("../font/SVN-Alluring.otf") format("truetype");
+}
+
+body{
+  background-color: #dadada;
+}

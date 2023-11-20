@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Yellowtail";
+  src: url("../font/Yellowtail-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+body{
+  background-color: #dadada;
+}
+
+header {
+  padding-top: 10px;
+  background-color: black;
+}
+#header-text {
+  color: white;
+  font-family: "Yellowtail";
+  font-size: 40px;
+  font-weight: bold;
+
+  text-align: left;
+
+  padding: 0px;
+  margin: 0px;
+
+  width: 90px;
+  height: 40px;
+
+  position: absolute;
+  transform: translateY(-5px);
+}
+
+.slogan-frame {
+  display: block;
+  width: 264px;
+  height: 34px;
+  flex-direction: column;
+  justify-content: center;
+
+  position: absolute;
+  top: 33px;
+  left: 588px;
+}
+#slogan-text {
+  color: #fff;
+  text-align: center;
+  font-family: Lucida Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#slogan {
+  display: block;
+
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 20px;
+
+  position: relative;
+  top: 15px;
+}
+
+#menu {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+
+  transform: translateY(5px);
+}
+
+main {
+  min-height: 775px;
+}
+
+.main-frame {
+  margin: 0 auto; /* Canh giữa frame */
+  width: 80%; /* Độ rộng của frame (tùy chỉnh theo nhu cầu) */
+  background-color: #f0f0f0; /* Màu nền của frame */
+  padding: 20px; /* Khoảng cách bên trong frame */
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+
+  height: 60px;
+}

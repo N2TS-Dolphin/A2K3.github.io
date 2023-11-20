@@ -1,0 +1,35 @@
+main {
+  min-height: 775px;
+}
+
+.main-frame {
+  margin: 40px auto 40px auto; /* Canh giữa frame */
+  width: 80%; /* Độ rộng của frame (tùy chỉnh theo nhu cầu) */
+  background-color: #f0f0f0; /* Màu nền của frame */
+  padding: 20px; /* Khoảng cách bên trong frame */
+}
+
+#welcome-text {
+  font-family: "Alluring";
+  font-size: 60px;
+
+  transform: translate(50px, 20px);
+}
+
+#class-diagram {
+  background-color: #dadada;
+  
+  margin: 5px 0px 5px 0px;
+  padding: 0px;
+
+  width: fit-content;
+}
+
+#class-diagram-left {
+  background-color: #dadada;
+
+  margin: 5px 15px 5px 5px;
+  padding: 0px;
+
+  width: fit-content;
+}
